@@ -34,7 +34,7 @@ h2 {
 /* NAVBAR */
 .navbar {
   padding: 0;
-  font-size: 25px;
+  font-size: 30px;
   font-family: var(--primary-font);
 }
 a.nav-link.active {
@@ -42,7 +42,7 @@ a.nav-link.active {
   font-weight: bold;
 }
 
-/* HERO */
+/* HOMEPAGE HERO */
 .hero {
   background-image: url("/images/background-graphic.png");
   background-size: cover;
@@ -67,7 +67,7 @@ a.nav-link.active {
   font-size: 25px;
   margin-bottom: 10px;
 }
-/* HERO BUTTONS */
+/* HOMEPAGE HERO BUTTONS */
 button {
   border-radius: 50px;
 }
@@ -101,7 +101,7 @@ button a {
   color: var(--primary-color-two);
   font-size: 9px;
 }
-/* HERO BUTTON HOVER */
+/* HOMEPAGE HERO BUTTON HOVER */
 .dark-button a:hover {
   color: var(--secondary-color-two);
 }
@@ -156,7 +156,7 @@ footer a {
   font-weight: bold;
 }
 
-/* Media Queries */
+/* HOMEPAGE MEDIA QUERIES */
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 80px;
@@ -227,4 +227,74 @@ footer a {
   .hero h2 {
     color: var(--primary-color-two);
   }
+}
+/* ABOUT PAGE */
+.about-container {
+  background-color: var(--primary-color-one);
+  border-top: 40px solid var(--primary-color-two);
+}
+.content-container {
+  padding: 75px 25px 25px 50px;
+}
+h1.about-header {
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+h2.about-subheader {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 12px;
+}
+p.about-intro-summary {
+  color: var(--primary-color-one);
+  background-color: white;
+  padding-left: 24px;
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 22px;
+  margin-left: -12px;
+}
+.about-paragraph-header {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  color: var(--primary-color-two);
+  font-size: 28px;
+}
+p.about-paragraph {
+  font-family: var(--secondary-font);
+  font-weight: 100;
+  color: var(--primary-color-two);
+  font-size: 15px;
+}
+
+.btn-about-primary {
+  background: white;
+  font-family: var(--secondary-font);
+  font-weight: bolder;
+  border-radius: 4px;
+  color: var(--primary-color-two);
+  font-size: 22px;
+  line-height: 27px;
+  padding: 15px 45px;
+  width: auto;
+  margin: 0 auto;
+  border-radius: 50px;
+  text-align: center;
+}
+.about-social-section {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+.about-social-icons {
+  text-decoration: none;
+  color: white;
+}
+
+.about-contact-button {
+  text-align: center;
+}
+.row.link-section {
+  margin-top: 15px;
 }
