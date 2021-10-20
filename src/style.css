@@ -82,7 +82,7 @@ footer a {
   line-height: 1;
   color: var(--primary-color-two);
   margin-bottom: 1.5vw;
-  padding-top:11vw;
+  padding-top: 11vw;
   text-transform: uppercase;
 }
 .hero h2 {
@@ -161,6 +161,67 @@ footer a {
 }
 
 /* HOMEPAGE MEDIA QUERIES */
+@media (max-width: 1140px) {
+  .hero {
+    background-image: url("/images/background-graphic-vertical.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top center;
+    border-top: 5vw solid var(--primary-color-two);
+    overflow: hidden;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 18vw;
+    margin-bottom: 6vw;
+    padding-top: 25vw;
+  }
+  .hero h2 {
+    font-size: 5vw;
+    font-weight: 600;
+    margin-bottom: 5vw;
+  }
+  .btn-home-dark {
+    font-size: 5vw;
+    color: var(--primary-color-one);
+    background-color: var(--primary-color-two);
+    border: 0.5vw solid var(--primary-color-two);
+    margin-bottom: 6vw;
+    padding: 1vw 3vw 1vw 3vw;
+  }
+  .btn-home-light {
+    font-size: 4.5vw;
+    color: var(--primary-color-two);
+    background-color: var(--primary-color-one);
+    border: 0.2vw solid var(--primary-color-two);
+    margin: 0 0.75vw 4vw 0.75vw;
+    padding: 0.5vw 0 0.3vw 0;
+    width: 34vw;
+  }
+  .intro-section h3 {
+    margin: 4vw 0 0vw 0;
+    padding-top: 3vw;
+    font-size: 7vw;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+  .intro-section h2 {
+    text-align: center;
+    font-size: 8vw;
+    margin-bottom: 2.5vw;
+  }
+  .name-line {
+    display: block;
+  }
+  .intro-section p {
+    font-size: 3.75vw;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+  .intro-break {
+    display: inline;
+  }
+}
 
 /* ABOUT PAGE */
 .about-container {
