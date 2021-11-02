@@ -33,13 +33,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <title>About Me | Cassidy Komp</title>
+    <title>Contact Me | Cassidy Komp</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="/"
-          ><img src="/images/logo-1.png" alt="CK Logo" title="Go to Homepage"
+          ><img
+            src="/images/logo-1.png"
+            alt="CK Logo"
+            title="Homepage - Current"
         /></a>
         <button
           class="navbar-toggler"
@@ -58,14 +61,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/" title="Go to Homepage">Home</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/"
+                title="Homepage - Current"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-                title="About Page - Current"
+              <a class="nav-link" href="/about.html" title="Go to About Page"
                 >About</a
               >
             </li>
@@ -79,7 +84,8 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
+                aria-current="page"
                 href="/contact.html"
                 title="Go to Contact Me Page"
                 >Contact</a
@@ -89,85 +95,25 @@
         </div>
       </div>
     </nav>
-    <div class="container about-container">
-      <div class="row content-container">
-        <div class="col-md-6">
-          <div class="row">
-            <img
-              src="/images/film-collage.png"
-              alt="Film Collage Photo"
-              class="about-image"
-            />
-          </div>
+    <div class="container contact-container">
+      <h1>CONTACT ME!</h1>
+      <div class="contact">
+        <div class="contact-info email">
+          <i class="fas fa-envelope-square"></i>
+          <h2>Email</h2>
+          <a href="”mailto:cassidykomp@gmail.com”">cassidykomp@gmail.com</a>
         </div>
-        <div class="col-md-6">
-          <div class="row">
-            <h1 class="about-header">ABOUT ME</h1>
-          </div>
-          <div class="row">
-            <h2 class="about-subheader">CASSIDY KOMP</h2>
-          </div>
-          <div class="row">
-            <p class="about-intro-summary">
-              Hi there, I’m Cassidy Komp! I am a front-end developer from and
-              currently based in Milwaukee, Wisconsin.
-            </p>
-          </div>
-          <div class="row about-paragraph-header">
-            <h3 class="about-paragraph-header">My Coding Journey</h3>
-          </div>
-          <div class="row">
-            <p class="about-paragraph">
-              <span class="about-paragraph-sections">
-                Pre-pandemic I was studying Advertising and Marketing
-                Communications at the Fashion Institute of Technology in New
-                York City, where I graduated with an Associates Degree. I
-                decided to put my schooling on hold while classes were virtual.
-              </span>
-              <span class="about-paragraph-sections">
-                This interlude gave me the opportunity to rethink my future and
-                the time to pursue coding.
-              </span>
-              <span class="about-paragraph-sections">
-                I moved back to my home state of Wisconsin and took on the task
-                of creating an online store for a local, family-owned business.
-                Finding an e-commerce platform, learning product photography,
-                building the website. I felt limited by my lack of programming
-                knowledge but intrigued by the endless possibilities. Which led
-                me to the SheCodes workshop.
-              </span>
-              <span class="about-paragraph-sections">
-                Once I began my coding journey it instantly felt right. I’m
-                excited to continue learning and growing with SheCodes and
-                beyond.
-              </span>
-            </p>
-          </div>
+        <div class="contact-info linkedin">
+          <i class="fab fa-linkedin"></i>
+          <h2>LinkedIn</h2>
+          <a href="https://www.linkedin.com/in/cassidy-komp-a400ab148/"
+            >cassidy-komp</a
+          >
         </div>
-        <div class="row g-0 link-section">
-          <div class="col-md-6 about-social-section">
-            <a
-              href="https://www.instagram.com/mimikomp/"
-              title="Instagram"
-              class="about-social-icons"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/cassidy-komp-a400ab148/"
-              title="LinkedIn"
-              class="about-social-icons"
-              ><i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-          <div class="col-md-6 about-contact-button">
-            <a
-              href="/contact.html"
-              class="btn btn-about-primary"
-              title="Go to Contact Page"
-              >CONTACT ME</a
-            >
-          </div>
+        <div class="contact-info github">
+          <i class="fab fa-github-square"></i>
+          <h2>GitHub</h2>
+          <a href="https://github.com/mimikomp">@mimikomp</a>
         </div>
       </div>
     </div>
