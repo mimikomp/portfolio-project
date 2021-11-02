@@ -13,9 +13,7 @@
 }
 
 /* GENERIC SELECTORS */
-body {
-  margin-top: 65px;
-}
+
 h1 {
   font-family: var(--header-font);
 }
@@ -67,7 +65,7 @@ footer a {
   color: white;
   font-weight: bold;
 }
-
+/* HOMEPAGE */
 /* HOMEPAGE HERO */
 .hero {
   background-image: url("/images/geometric-background-2.png");
@@ -368,47 +366,60 @@ p.about-paragraph {
   }
 }
 /* PROJECTS PAGE */
+
 /* PROJECTS CAROUSEL */
 .projects-container {
   background-color: var(--primary-color-two);
   border-top: 2.5vw solid var(--primary-color-one);
 }
 .projects-heading {
+  font-family: var(--primary-font);
+  font-size: 5vw;
+  font-weight: bold;
   text-align: center;
   color: var(--primary-color-one);
   padding-top: 2vw;
-  text-transform: uppercase;
-  font-size: 5.5vw;
 }
 .carousel {
   margin: 0.5vw 20vw;
 }
+hr {
+  color: var(--primary-color-one);
+}
+.carousel-inner {
+  margin-top: -3vw;
+  margin-bottom: 20px;
+}
+
 .card {
   margin: 3vw auto;
   text-align: center;
-  margin-bottom: 4.5vw;
+  margin-bottom: 28px;
 }
-.card img {
-  border: 1px solid var(--primary-color-two);
-}
+
 .card-title {
   font-family: var(--primary-font);
   font-weight: 600;
-  font-size: 1.75vw;
+  font-size: 1.25vw;
+  margin-bottom: 5px;
 }
 .carousel-indicator-buttons {
   color: var(--primary-color-one);
 }
+.carousel-indicators {
+  margin-bottom: 0;
+}
 .card-text {
   font-family: var(--secondary-font);
-  font-size: 1.25vw;
+  font-size: 1vw;
+  margin-bottom: 0.5vw;
 }
 .card-body {
-  padding: 0.75vw 0.75vw;
+  padding: 0.3vw 0.75vw;
 }
 .btn-carousel {
   font-family: var(--secondary-font);
-  font-size: 1vw;
+  font-size: 0.75vw;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 0.05em;
@@ -418,6 +429,79 @@ p.about-paragraph {
   background-color: var(--primary-color-two);
   border: 0.5vw solid var(--primary-color-two);
   border-radius: 50px;
-  margin-bottom: 0.5vw;
+  margin-bottom: 0.1vw;
   padding: 0.3vw 0.5vw 0.3vw 0.5vw;
+}
+.btn-carousel:hover {
+  color: var(--primary-color-one) !important;
+}
+/* SKILLS & Certificates SECTION */
+.skills-section {
+  margin: 3vw 0;
+}
+.certificates-section {
+  margin-top: 3vw;
+  padding-bottom: 2vw;
+}
+.skills-header h2,
+.certificates-header h2 {
+  color: var(--primary-color-one);
+  text-align: center;
+  font-size: 4vw;
+  margin-bottom: 1.5vw;
+}
+.skill {
+  color: var(--primary-color-one);
+  text-align: center;
+  font-size: 1.25vw;
+}
+.fas,
+.fab {
+  font-size: 3vw;
+}
+.down-button-skills i {
+  color: var(--primary-color-one);
+  font-size: 2vw;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+.certificates-image {
+  max-width: 30vw;
+}
+/* PROJECTS MEDIA QUERIES */
+@media (max-width: 576px) {
+  .projects-heading {
+    padding-top: 8vw;
+  }
+  .carousel-inner {
+    margin-top: -1vw;
+    margin-bottom: 0;
+  }
+  .card-title {
+    margin-top: 2px;
+    font-size: 3vw;
+  }
+  .card-text {
+    font-size: 2vw;
+  }
+  .btn-carousel {
+    font-size: 2vw;
+    padding: 0.5vw 0.75vw 0.5vw 0.75vw;
+  }
+  .card {
+    width: 45vw !important;
+  }
+  .certificates-image {
+    max-width: 40vw;
+  }
+  .projects-container {
+    margin-top: 5px;
+  }
+  .skill {
+  font-size: 1.25vw;
+}
+.fas,
+.fab {
+  font-size: 3vw;
+}
 }

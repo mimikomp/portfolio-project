@@ -36,7 +36,7 @@
     <title>My Projects | Cassidy Komp</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="/"
           ><img src="/images/logo-1.png" alt="CK Logo" title="Go to Homepage"
@@ -83,8 +83,8 @@
         </div>
       </div>
     </nav>
-    <div class="container projects-container position-relative">
-      <h1 class="projects-heading">Projects</h1>
+    <div class="container projects-container position-relative mb-1">
+      <h1 class="projects-heading">PROJECTS</h1>
       <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -97,18 +97,21 @@
           ></button>
           <button
             type="button"
+            class="carousel-indicator-buttons"
             data-bs-target="#projectsCarousel"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
+            class="carousel-indicator-buttons"
             data-bs-target="#projectsCarousel"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
           <button
             type="button"
+            class="carousel-indicator-buttons"
             data-bs-target="#projectsCarousel"
             data-bs-slide-to="3"
             aria-label="Slide 4"
@@ -117,7 +120,7 @@
         <div class="carousel-inner">
           <!-- SLIDE ONE -->
           <div class="carousel-item active" data-bs-interval="10000">
-            <div class="card" style="width: 25vw">
+            <div class="card" style="width: 30vw">
               <img
                 class="d-block w-100"
                 src="/images/weather-app.png"
@@ -138,7 +141,7 @@
           </div>
           <!-- SLIDE TWO -->
           <div class="carousel-item" data-bs-interval="10000">
-            <div class="card" style="width: 25vw">
+            <div class="card" style="width: 28vw">
               <img
                 class="d-block w-100"
                 src="/images/first-project-pabst.png"
@@ -168,7 +171,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">SheCodes Responsive</h5>
-                <p class="card-text">This Portfolio Project</p>
+                <p class="card-text">This Current Portfolio Project!</p>
                 <a
                   href="https://priceless-lichterman-875e2d.netlify.app/"
                   class="btn btn-carousel"
@@ -212,6 +215,85 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+      <div class="down-button-skills d-flex flex-row justify-content-center">
+        <a href="#skills-section" title="Next Section">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+      <hr />
+
+      <div class="skills-section" id="skills-section">
+        <div class="skills-header">
+          <h2>SKILLS</h2>
+        </div>
+        <div
+          class="d-flex flex-wrap justify-content-evenly skills-icons"
+        >
+          <div class="skill">
+            <i class="fab fa-html5 skill-icon"></i> <br />
+            HTML
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt skill-icon"></i> <br />
+            CSS
+          </div>
+          <div class="skill">
+            <i class="fab fa-js-square skill-icon"></i> <br />
+            JavaScript
+          </div>
+          <div class="skill">
+            <i class="fab fa-github-square skill-icon"></i> <br />
+            GitHub
+          </div>
+          <div class="skill">
+            <i class="fab fa-bootstrap"></i> <br />
+            Bootstrap
+          </div>
+          <div class="skill">
+            <i class="fas fa-cogs"></i> <br />
+            API
+          </div>
+          <div class="skill">
+            <i class="fas fa-search"></i> <br />
+            SEO
+          </div>
+          <div class="skill">
+            <i class="fas fa-laptop-code"></i> <br />
+            Hosting
+          </div>
+          <div class="skill">
+            <i class="fas fa-mobile-alt"></i> <br />
+            Responsive
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="certificates-section" id="certificates-section">
+        <div class="certificates-header">
+          <h2>CERTIFICATIONS</h2>
+        </div>
+        <div class="container">
+          <div class="row pb-2">
+            <div class="certificates col-sm text-center text-md-end pb-2">
+              <img
+                src="/images/basic-certificate.png"
+                class="certificates-image"
+                alt="Basic Certificate"
+                title="SheCodes Basic Certificate"
+              />
+            </div>
+            <div class="certificates col-sm text-center text-md-start">
+              <img
+                src="/images/plus-certificate.png"
+                class="certificates-image"
+                alt="Basic Certificate"
+                title="SheCodes Plus Certificate"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
       </div>
     </div>
     <footer>
