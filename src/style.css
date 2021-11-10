@@ -73,6 +73,12 @@ footer a {
   color: white;
   font-weight: bold;
 }
+footer a:hover {
+  color: var(--secondary-color-two);
+}
+footer i:hover {
+  color: var(--primary-color-one);
+}
 
 /* FOOTER MEDIA QUERY */
 @media (max-width: 767px) {
@@ -154,14 +160,23 @@ footer a {
   font-size: 4vw;
   margin-bottom: 2vw;
 }
+.down-button i:hover {
+  color: var(--primary-color-one);
+  background-color: rgb(32, 32, 32, 0.9);
+  padding: 0 7px;
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+}
 
 /* HOMEPAGE HERO BUTTON HOVER */
 .btn-home-dark:hover {
   color: var(--secondary-color-two);
+  transition: all 100ms ease-in-out;
 }
 .btn-home-light:hover {
   color: var(--primary-color-one);
   background-color: var(--primary-color-two);
+  transition: all 50ms ease-in-out;
 }
 
 /* HOMEPAGE INTRO SECTION */
@@ -561,6 +576,13 @@ p.about-paragraph {
   font-size: 3vw;
   text-align: center;
 }
+.down-button-skills i:hover {
+  color: var(--primary-color-two);
+  background-color: rgb(237, 231, 212, 0.9);
+  padding: 0 7px;
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+}
 
 /* SKILLS & Certificates SECTION */
 .skills-section {
@@ -611,7 +633,6 @@ p.about-paragraph {
 .certificates-image {
   max-width: 30vw;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
-  padding-bottom: 2vw;
 }
 
 /* FONT AWESOME ICONS */
@@ -737,7 +758,7 @@ p.about-paragraph {
 
 /* CONTACT SECTION HOVER */
 .contact-info:hover {
-  background-color: rgb(219, 203, 157, 0.9);
+  background-color: var(--secondary-color-two);
   transition: background-color 0.5s ease;
 }
 .contact-info a:hover {
