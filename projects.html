@@ -127,13 +127,28 @@
               data-bs-slide-to="3"
               aria-label="Slide 4"
             ></button>
+            <button
+              type="button"
+              class="carousel-indicator-buttons"
+              data-bs-target="#projectsCarousel"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              class="carousel-indicator-buttons"
+              data-bs-target="#projectsCarousel"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
           </div>
+
           <div class="carousel-inner">
-            <!-- SLIDE ONE -->
+            <!-- SLIDE ONE PLUS WEATHER-->
             <div class="carousel-item active" data-bs-interval="10000">
-              <div class="card" style="width: 30vw">
+              <div class="card">
                 <img
-                  class="d-block w-100 carousel-image"
+                  class="d-block carousel-image"
                   src="/images/weather-app.png"
                   alt="Weather App Project"
                   title="Weather App Project"
@@ -152,12 +167,13 @@
                 </div>
               </div>
             </div>
-            <!-- SLIDE TWO -->
+            <!-- SLIDE TWO BASIC PABST-->
             <div class="carousel-item" data-bs-interval="10000">
-              <div class="card" style="width: 28vw">
+              <div class="card">
                 <img
-                  class="d-block w-100 carousel-image"
-                  src="/images/first-project-pabst.png"
+                  class="d-block carousel-image"
+                  style="width: 23vw"
+                  src="/images/pabst-project2.png"
                   alt="Pabst Website Project"
                   title="Pabst Website Project"
                 />
@@ -173,12 +189,12 @@
                 </div>
               </div>
             </div>
-            <!-- SLIDE THREE -->
+            <!-- SLIDE THREE RESPONSIVE PORTFOLIO-->
             <div class="carousel-item" data-bs-interval="10000">
-              <div class="card" style="width: 25vw">
+              <div class="card">
                 <img
-                  class="d-block w-100 carousel-image"
-                  src="/images/portfolio-project.png"
+                  class="d-block carousel-image"
+                  src="/images/portfolio-project2.png"
                   alt="Portfolio Project"
                   title="Portfolio Project"
                 />
@@ -194,19 +210,65 @@
                 </div>
               </div>
             </div>
-            <!-- SLIDE FOUR -->
+            <!-- SLIDE FOUR REACT WEATHER-->
             <div class="carousel-item" data-bs-interval="10000">
-              <div class="card" style="width: 25vw">
+              <div class="card">
                 <img
-                  class="d-block w-100 carousel-image"
-                  src="/images/black-background.jpeg"
-                  alt="Coming Soon"
-                  title="Coming Soon"
+                  class="d-block carousel-image"
+                  style="width: 24vw"
+                  src="/images/react-weather-app.png"
+                  alt="React Weather App"
+                  title="React Weather App"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Coming Soon..</h5>
-                  <p class="card-text">Stayed tuned to see my next projects</p>
+                  <h5 class="card-title">SheCodes React - Weather App</h5>
+                  <a
+                    href="https://stellar-melba-f7e52c.netlify.app/"
+                    class="btn btn-carousel"
+                    title="Launch SheCodes React Weather Project"
+                    >Launch Project</a
+                  >
                 </div>
+              </div>
+            </div>
+            <!-- SLIDE FIVE REACT DICTIONARY-->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="card">
+                <img
+                  class="d-block carousel-image"
+                  style="width: 25vw"
+                  src="/images/react-dictionary-app.png"
+                  alt="React Dictionary App"
+                  title="React Dictionary App"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">SheCodes React - Dictionary App</h5>
+                  <a
+                    href="https://roaring-crumble-3b6dd0.netlify.app/"
+                    class="btn btn-carousel"
+                    title="Launch SheCodes React Dictionary Project"
+                    >Launch Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- SLIDE LAST -->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="card h-100 align-items-center justify-content-center">
+                <span class="card-container">
+                  <img
+                    class="d-block carousel-image"
+                    src="/images/black-background.jpeg"
+                    alt="Coming Soon"
+                    title="Coming Soon"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Coming Soon..</h5>
+                    <p class="card-text">
+                      Stayed tuned to see my next projects
+                    </p>
+                  </div>
+                </span>
               </div>
             </div>
           </div>
@@ -309,13 +371,7 @@
     </div>
     <footer>
       <div
-        class="
-          d-md-flex
-          flex-row
-          justify-content-around
-          align-items-center
-          h-100
-        "
+        class="d-md-flex flex-row justify-content-around align-items-center h-100"
       >
         <div class="social-icons flex-column">
           <a
